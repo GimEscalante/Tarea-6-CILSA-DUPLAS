@@ -1,4 +1,5 @@
 Tarea-6-Duplas
+
 Este repositorio fue creado para realizar la tarea 6 del bootcamp de CILSA.
 
 Creación de una página de perfil
