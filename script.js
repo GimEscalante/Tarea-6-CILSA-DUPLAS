@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
             comentarioInput.value = inputValue;
         }
 
-        // Actualizar el contador de caracteres restantes
+        // Actualizar el contador de caracteres restantes (NO FUNCIONA NO SE PORQUE :C)
         const charsLeft = (maxChars - inputValue.length);
         comentarioCounter.textContent = `Te quedan ${charsLeft} caracteres.`;
     });
