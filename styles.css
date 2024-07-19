@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.layout {
+    
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid:
+      "header" auto
+      "main" 1fr
+      "footer" auto
+      / 1fr;
+    gap: 8px;
+  }
+  
+  .header { grid-area: header; }
+  .main { grid-area: main; }
+  .footer { grid-area: footer; }
+
+
+
+  #home{
+    width: 80%;
+    
+    
+  }
+  .carousel-inner {
+    
+    height: 850px;
+
+    
+    
+  }
+
+  
+ 
+  .card{
+    margin-top: 100px;
+    
+  }
+
+
+
+  
