@@ -26,23 +26,30 @@
 
 
   #home{
-    width: 80%;
-    
+    width: 90%;
+    height: auto;
+   
     
   }
-  .carousel-inner {
-    
-    height: 850px;
-
-
+  
+  .carrousel{
+    display: flex;
+    justify-content: center;
   }
-
+  
   
   .card{
     margin-top: 100px;
     
   }
 
+  header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+
+  
 
 
   
