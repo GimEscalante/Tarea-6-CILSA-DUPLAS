@@ -65,4 +65,28 @@
     justify-content: center;
   }
 
-  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #ffffff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+/* Estilo por defecto (tema claro) */
+body[data-theme='light'] {
+  background-color: white;
+  color: black;
+}
+
+/* Tema oscuro */
+body[data-theme='dark'] {
+  background-color: black;
+  color: white;
+}
