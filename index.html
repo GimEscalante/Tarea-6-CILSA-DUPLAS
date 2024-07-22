@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrega tarea 6: CILSA</title>
@@ -11,6 +12,8 @@
     
   </head>
 <body>
+  
+    
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -32,8 +35,9 @@
           </div>
         </div>
       </nav>
+      <button id="theme-toggle">Cambiar Tema</button>
     </header>
-
+    
     <main>
         <section id="home"> 
           <div id="carouselExample" class="carousel slide">
@@ -179,7 +183,22 @@
          }, false)
          })
         })()
-        </script>
+        
+          // JavaScript
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggleButton = document.getElementById('theme-toggle');
+            const currentTheme = localStorage.getItem('theme') || 'light';
+
+            document.body.setAttribute('data-theme', currentTheme);
+
+            themeToggleButton.addEventListener('click', () => {
+                const newTheme = document.body.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+                document.body.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+            });
+        });
+        console.log('JavaScript cargado');
+</script>
 
     </main>
 
