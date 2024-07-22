@@ -26,10 +26,16 @@
 
 
   #home{
-    width: 90%;
+    width: 100%;
     height: auto;
-   
     
+    margin-bottom: 100px;
+    
+    
+  }
+
+  #home img{
+    height: 900px;
   }
   
   .carrousel{
@@ -39,7 +45,7 @@
   
   
   .card{
-    margin-top: 100px;
+    margin-top: 50px;
     
   }
 
@@ -47,9 +53,16 @@
     width: 100%;
     position: fixed;
     z-index: 100;
+    
   }
 
+  header a{
+    margin-left: 30px;
+  }
   
-
+  .nosotros{
+    display: flex;
+    justify-content: center;
+  }
 
   
